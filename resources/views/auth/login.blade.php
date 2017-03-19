@@ -9,7 +9,7 @@
         <form class="form-login" role="form" method="POST" action="{{ url('/login') }}" autocomplete="off">
             {{ csrf_field() }}
             <img src="{{ asset('/images/home.png') }}" alt="">
-            <h4>로그인</h4>
+            <h4>SIGN IN</h4>
             <div>
                 <input type="email" class="input-form form-control" name="email" placeholder="ID-EMAIL" autocomplete="off"
                 value="{{ old('email') }}" required>
