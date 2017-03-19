@@ -16,6 +16,7 @@
     <link href="{{ asset('/css/auth/home.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/auth/header.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/auth/footer.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/home_guest.css') }}" rel="stylesheet">
      @yield('css')
     <!-- Scripts -->
     <script src="{{ url('/js/app.js') }}"></script>
